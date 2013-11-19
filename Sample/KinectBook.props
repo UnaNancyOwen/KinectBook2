@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ImportGroup Label="PropertySheets"/>
+
+  <!-- Debug|Win32 -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_32.lib;KinectInteraction180_32.lib;KinectBackgroundRemoval180_32.lib;opencv_core$(OPENCV_VER)d.lib;opencv_highgui$(OPENCV_VER)d.lib;opencv_imgproc$(OPENCV_VER)d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- Release|Win32 -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_32.lib;KinectInteraction180_32.lib;KinectBackgroundRemoval180_32.lib;opencv_core$(OPENCV_VER).lib;opencv_highgui$(OPENCV_VER).lib;opencv_imgproc$(OPENCV_VER).lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- Debug|x64 -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_64.lib;KinectInteraction180_64.lib;KinectBackgroundRemoval180_64.lib;opencv_core$(OPENCV_VER)d.lib;opencv_highgui$(OPENCV_VER)d.lib;opencv_imgproc$(OPENCV_VER)d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <!-- Release|x64 -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_64.lib;KinectInteraction180_64.lib;KinectBackgroundRemoval180_64.lib;opencv_core$(OPENCV_VER).lib;opencv_highgui$(OPENCV_VER).lib;opencv_imgproc$(OPENCV_VER).lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+
+</Project>
