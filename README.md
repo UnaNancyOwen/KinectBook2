@@ -8,6 +8,8 @@
 ------------
 * Kinect for WIndows SDK v1.8
 * Kinect for Windows Developer Toolkit v1.8.0
+* Speech Platform SDK v11
+* Kinect for Windows Language Packs v11.0 (ja-JP)
 * OpenCV 2.4.6
 * Visual Studio 2012 Express for Windows Desktop
 
