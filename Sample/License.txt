@@ -1,4 +1,4 @@
-書籍「Kinect for Windows SDK プログラミングガイド v1.8対応」サンプルプログラム ライセンス
+書籍「Kinect for Windows SDK 実践プログラミング」サンプルプログラム ライセンス
  
 The MIT License
 

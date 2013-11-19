@@ -132,8 +132,8 @@ Debug用のライブラリファイルには最後に「d」がつきます。
 
     #include <opencv/opencv.hpp>
 
-OpenCV 2.4.6にはVisual Studio 2013(vc12)向けのバイナリが同梱されていません．
-OpenCV 2.4.6を使用する場合はCMakeを使ってVisual Studio 2013(Visual Studio 12またはVisual Studio 12 Win64)のソリューションを作成し，ビルドしてください．
+OpenCV 2.4.6にはVisual Studio 2013(vc12)向けのバイナリが同梱されていません。
+OpenCV 2.4.6を使用する場合はCMakeを使ってVisual Studio 2013(Visual Studio 12またはVisual Studio 12 Win64)のソリューションを作成し、ビルドしてください。
 
     OpenCV v2.4.6 documentation > OpenCV Tutorials > Introduction to OpenCV > Installation in Windows > Building the library
     http://docs.opencv.org/trunk/doc/tutorials/introduction/windows_install/windows_install.html#building-the-library
