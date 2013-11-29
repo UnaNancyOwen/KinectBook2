@@ -19,7 +19,7 @@
 * 杉浦 司
     * <t.sugiura0204@gmail.com>
     * <https://twitter.com/UnaNancyOwen>
-    * <http://www.UnaNancyOwen.com>
+    * <http://UnaNancyOwen.com>
 
 * 中村 薫
 
@@ -27,4 +27,4 @@
 工学社
 ------
 * 書籍情報 <http://www.kohgakusha.co.jp/books/detail/978-4-7775-1800-5>
-* 書籍サポート情報 <http://www.kohgakusha.co.jp/support/kinect2/index.html>
+* 書籍サポート情報 <http://www.kohgakusha.co.jp/support/kinect_jissen/index.html>
