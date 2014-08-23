@@ -11,7 +11,9 @@
       <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='10.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc10\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='11.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='12.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc12\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_32.lib;KinectInteraction180_32.lib;KinectBackgroundRemoval180_32.lib;opencv_core$(OPENCV_VER)d.lib;opencv_highgui$(OPENCV_VER)d.lib;opencv_imgproc$(OPENCV_VER)d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -24,7 +26,9 @@
       <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='10.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc10\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='11.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc11\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='12.0'">$(KINECTSDK10_DIR)\lib\x86;$(KINECT_TOOLKIT_DIR)\Lib\x86;$(OPENCV_DIR)\build\x86\vc12\lib;$(ProgramFiles)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_32.lib;KinectInteraction180_32.lib;KinectBackgroundRemoval180_32.lib;opencv_core$(OPENCV_VER).lib;opencv_highgui$(OPENCV_VER).lib;opencv_imgproc$(OPENCV_VER).lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -37,7 +41,9 @@
       <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='10.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc10\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='11.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='12.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc12\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_64.lib;KinectInteraction180_64.lib;KinectBackgroundRemoval180_64.lib;opencv_core$(OPENCV_VER)d.lib;opencv_highgui$(OPENCV_VER)d.lib;opencv_imgproc$(OPENCV_VER)d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -50,7 +56,9 @@
       <AdditionalIncludeDirectories>$(KINECTSDK10_DIR)\inc;$(KINECT_TOOLKIT_DIR)\inc;$(OPENCV_DIR)\build\include;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='10.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc10\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='11.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc11\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories Condition="'$(VisualStudioVersion)'=='12.0'">$(KINECTSDK10_DIR)\lib\amd64;$(KINECT_TOOLKIT_DIR)\Lib\amd64;$(OPENCV_DIR)\build\x64\vc12\lib;$(ProgramW6432)\Microsoft SDKs\Speech\v11.0\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Kinect10.lib;FaceTrackLib.lib;KinectFusion180_64.lib;KinectInteraction180_64.lib;KinectBackgroundRemoval180_64.lib;opencv_core$(OPENCV_VER).lib;opencv_highgui$(OPENCV_VER).lib;opencv_imgproc$(OPENCV_VER).lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
